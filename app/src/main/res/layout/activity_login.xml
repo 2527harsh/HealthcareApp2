@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvHealtcare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24*7 Healthcare"
+        android:textColor="#FFBB86FC"
+        android:gravity="center"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/textViewBMBPackageName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+
+        android:textColor="@color/colorWhite"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <EditText
+        android:id="@+id/editTextAppFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textStyle="bold"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="UserName"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:text="Login"
+
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+    <TextView
+        android:id="@+id/tvNewUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register? New User"
+        android:textColor="@color/colorWhite"
+
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="532dp" />
+</LinearLayout>
